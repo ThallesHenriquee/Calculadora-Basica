@@ -1,1 +1,1 @@
-Calculadora Basica feita em c# utilizando swithc case
+Calculadora Basica feita em c# utilizando switch case
