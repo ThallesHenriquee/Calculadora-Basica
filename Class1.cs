@@ -9,18 +9,18 @@ namespace Teste
 {
     internal class Calculator
     {
-        public int Calcular(string op, int value1, int value2)
+        public int Calcular(string op, float value1, float value2)
         {
             switch (op)
             {
                 case "+":
-                    return value1 + value2;
+                    return Convert.ToInt32( value1 + value2);
                 case "-":
-                    return value1 - value2;
+                    return Convert.ToInt32(value1 - value2);
                 case "*":
-                    return value1 * value2;
+                    return Convert.ToInt32(value1 * value2);
                 case "/":
-                    return value1/value2;
+                    return Convert.ToInt32(value1 / value2);
                 default:return 0;
             }
         }    } }
